@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Profile from './Profile'
 import Register from './Register'
@@ -7,7 +7,7 @@ import Login from './Login'
 
 function App() {
   return (
-    <>
+    <div className="">
       <h1>Buffalo Snow Co</h1>
       <Router>
         <Switch>
@@ -17,7 +17,7 @@ function App() {
           <Route exact path='/verify-email' component={VerifyEmail} />
         </Switch>
       </Router>
-    </>
+    </div>
   );
 }
 
