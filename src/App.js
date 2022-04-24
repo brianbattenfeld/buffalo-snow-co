@@ -4,16 +4,31 @@ import Profile from './Profile'
 import Register from './Register'
 import VerifyEmail from './VerifyEmail';
 import Login from './Login'
+import Logo from "./assets/logo-cleaned.png"
 
 function App() {
   return (
     <div className="">
-      <h1>Buffalo Snow Co</h1>
+      <section className="container page-section center flex-column">
+        <div className="row">
+          <div className="col-md-6">
+            <img src={Logo} alt="Buffalo Snow Co" height="200" />
+          </div>
+          <div className="col-md-6 text-left">
+
+            <h1 className="text-primary">Buffalo Snow Co</h1>
+            <div className="my-4">
+              <h2>Mobilizing the City of Good Neighbors. Plowed public sidewalks are a basic human right.</h2>
+            </div>
+          </div>
+        </div>
+      </section>
       <Router>
         <Switch>
-          <Route exact path="/" component={Profile} />
-          <Route exact path="/login" component={Login} />
+          {/* <Route exact path="/" component={Profile} /> */}
+          <Route exact path="/" component={Register} />
           <Route exact path="/register" component={Register} />
+          <Route exact path="/login" component={Login} />
           <Route exact path='/verify-email' component={VerifyEmail} />
         </Switch>
       </Router>

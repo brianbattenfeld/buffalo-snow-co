@@ -1,0 +1,54 @@
+/* make the customizations */
+$theme-colors: (
+  "primary": #03138e,
+  "secondary": #007ac2,
+  "yellow": #f7a900,
+  "primary-light": #f3d3c1,
+  "gray": #61666a,
+  "light": #efefef,
+  "dark": #333333,
+  "darker": #212121,
+  "success": #6ba301,
+  "danger": #b62c2c,
+  "info": teal,
+  "white": #ffffff,
+  "black": #000000,
+);
+
+$font-weight-lighter: lighter;
+$font-weight-light: 300;
+$font-weight-normal: 600;
+$font-weight-bold: 700;
+$font-weight-bolder: 800;
+
+$headings-font-weight: $font-weight-bold;
+
+$font-size-base: 1rem;
+
+$h1-font-size: 3rem; // 48px
+$h2-font-size: 1.75rem;
+$h3-font-size: 1.3125rem;
+$h4-font-size: 1.25rem;
+$h5-font-size: 1.125rem;
+$h6-font-size: 1rem;
+
+$headings-color: #000;
+
+$btn-border-radius: 0.75rem;
+
+$font-family-sans-serif: "proxima-nova", "Montserrat", -apple-system,
+  BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-base: $font-family-sans-serif;
+$headings-font-family: $font-family-sans-serif;
+
+$container-max-widths: (
+  sm: 720,
+  md: 960px,
+  lg: 1140,
+  xl: 1141px,
+);
+
+// Tables
+$table-bg: #fff;
+// $table-accent-bg: theme-color("gray");
