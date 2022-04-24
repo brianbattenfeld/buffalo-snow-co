@@ -5,8 +5,8 @@ import "./stats.scss"
 const Stats = (props) => {
   console.log(stats);
   return (
-    <section className="text-white">
-      <h2>What we're helping with</h2>
+    <section className="text-white mb-5">
+      <h1 className="mb-4">What we're helping with</h1>
       <div className="row">
         {
           stats.map((item, index) => {
