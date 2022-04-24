@@ -1,5 +1,6 @@
 @import "./variables.scss";
 @import "~bootstrap/scss/bootstrap";
+@import "./stats.scss";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;800&display=swap");
 
 .app {
@@ -45,6 +46,7 @@
 
 section.page-section {
   min-height: 90vh;
+  padding: 3rem 0;
 }
 
 .text-white {
@@ -57,4 +59,18 @@ section.page-section {
 
 .btn-secondary {
   color: theme-color("primary");
+}
+
+img {
+  max-width: 100% !important;
+  height: auto;
+}
+
+@include media-breakpoint-down(md) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
 }

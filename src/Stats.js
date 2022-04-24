@@ -1,6 +1,5 @@
 import React from "react";
 import { stats } from "./util/data";
-import "./stats.scss"
 
 const Stats = (props) => {
   console.log(stats);

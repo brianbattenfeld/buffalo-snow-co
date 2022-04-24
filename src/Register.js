@@ -19,7 +19,7 @@ function Register() {
         </div>
       </section>
       <section py-5 className="container page-section py-5 ">
-        <h1>Organizational Information</h1>
+        <h1 className="">Organizational Information</h1>
         {/* <div className="row py-5"> */}
         {/* <div className="col-md-4 mb-4">
             <div className="text-left">

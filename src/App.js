@@ -11,8 +11,8 @@ function App() {
     <div className="">
       <section className="container page-section center flex-column">
         <div className="row align-items-center">
-          <div className="col-md-6">
-            <img src={Logo} alt="Buffalo Snow Co" height="350" />
+          <div className="col-md-6 col-6 offset-3 offset-md-0">
+            <img className="logo img-responsive" src={Logo} alt="Buffalo Snow Co" height="350" />
           </div>
           <div className="col-md-6 text-left">
             <h1 className="text-primary">Buffalo Snow Co</h1>
@@ -25,7 +25,7 @@ function App() {
       </section>
       <Router>
         <Switch>
-          {/* <Route exact path="/" component={Profile} /> */}
+          {/* <Route exact path="/" component={Profile} /> */}5
           <Route exact path="/" component={Register} />
           <Route exact path="/register" component={Register} />
           <Route exact path="/login" component={Login} />

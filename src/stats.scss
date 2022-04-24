@@ -1,9 +1,15 @@
 .stat {
   .title {
     font-size: 4.5rem;
+    @include media-breakpoint-down(md) {
+      font-size: 2.5rem;
+    }
   }
 
   .sub-title {
     font-size: 1.2rem;
+    @include media-breakpoint-down(md) {
+      font-size: 1rem;
+    }
   }
 }

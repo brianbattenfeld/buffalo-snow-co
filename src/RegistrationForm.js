@@ -41,7 +41,7 @@ function RegistrationForm() {
 
   return (
     <div className="">
-      <div className='auth py-5 mx-5 text-white'>
+      <div className='auth py-5 text-white'>
         <h2 className="">Join the collective</h2>
         <p>Create your account</p>
         {error && <div className='auth__error'>{error}</div>}
@@ -49,7 +49,7 @@ function RegistrationForm() {
           <div className="row mb-4 form-group">
             <div className="col-md-4">
               <input
-                className="form-control"
+                className="form-control mb-3"
                 type='email'
                 value={email}
                 placeholder="Enter your email"
@@ -58,7 +58,7 @@ function RegistrationForm() {
             </div>
             <div className="col-md-4">
               <input
-                className="form-control"
+                className="form-control mb-3"
                 type='password'
                 value={password}
                 required
@@ -68,7 +68,7 @@ function RegistrationForm() {
             <div className="col-md-4">
 
               <input
-                className="form-control"
+                className="form-control mb-3"
                 type='password'
                 value={confirmPassword}
                 required
@@ -82,10 +82,10 @@ function RegistrationForm() {
             </div>
           </div>
         </form>
-        <span className="text-white">
+        {/* <span className="text-white">
           Already have an account?
           <Link to='/login'> Login</Link>
-        </span>
+        </span> */}
       </div>
     </div>
   )
