@@ -1,14 +1,14 @@
 export const stats = [
   {
-    title: "~$10",
+    title: "< $10",
     subtitle: "Per household, per year"
   },
   {
-    title: "1,400 miles",
-    subtitle: "Of Buffalo sidewalk"
+    title: "1,400 ",
+    subtitle: "Miles of Buffalo sidewalk"
   },
   {
-    title: "300,000",
-    subtitle: "Annual slip and fall accidents on public walkways in the city of Buffalo"
+    title: "25",
+    subtitle: "Snow events annually"
   }
 ]

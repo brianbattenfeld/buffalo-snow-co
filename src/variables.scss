@@ -1,7 +1,8 @@
 /* make the customizations */
 $theme-colors: (
   "primary": #03138e,
-  "secondary": #007ac2,
+  "secondary": #ffd200,
+  // "secondary": #50578f,
   "yellow": #f7a900,
   "primary-light": #f3d3c1,
   "gray": #61666a,
@@ -34,7 +35,7 @@ $h6-font-size: 1rem;
 
 $headings-color: #000;
 
-$btn-border-radius: 0.75rem;
+$btn-border-radius: 0rem;
 
 $font-family-sans-serif: "proxima-nova", "Montserrat", -apple-system,
   BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif,

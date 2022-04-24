@@ -44,7 +44,7 @@
 }
 
 section.page-section {
-  height: 90vh;
+  min-height: 90vh;
 }
 
 .text-white {
@@ -53,4 +53,8 @@ section.page-section {
   * {
     color: #fff;
   }
+}
+
+.btn-secondary {
+  color: theme-color("primary");
 }

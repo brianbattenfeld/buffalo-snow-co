@@ -41,14 +41,15 @@ function RegistrationForm() {
 
   return (
     <div className="">
-      <div className='auth py-5 mx-5'>
-        <h2 className="text-white">Join the collective</h2>
+      <div className='auth py-5 mx-5 text-white'>
+        <h2 className="">Join the collective</h2>
+        <p>Create your account</p>
         {error && <div className='auth__error'>{error}</div>}
         <form name='registration_form' onSubmit={register}>
-          <div className="row">
+          <div className="row mb-4 form-group">
             <div className="col-md-4">
               <input
-                className=""
+                className="form-control"
                 type='email'
                 value={email}
                 placeholder="Enter your email"
@@ -57,7 +58,7 @@ function RegistrationForm() {
             </div>
             <div className="col-md-4">
               <input
-                className=""
+                className="form-control"
                 type='password'
                 value={password}
                 required
@@ -67,7 +68,7 @@ function RegistrationForm() {
             <div className="col-md-4">
 
               <input
-                className=""
+                className="form-control"
                 type='password'
                 value={confirmPassword}
                 required
@@ -75,13 +76,16 @@ function RegistrationForm() {
                 onChange={e => setConfirmPassword(e.target.value)} />
             </div>
           </div>
-
-          <button type='submit' className="btn btn-light">Register</button>
+          <div className="row form-group">
+            <div className="col-md-6 offset-md-3">
+              <button type='submit' className="btn btn-secondary">Register</button>
+            </div>
+          </div>
         </form>
-        {/* <span>
-                Already have an account?
-                <Link to='/login'>login</Link>
-              </span> */}
+        <span className="text-white">
+          Already have an account?
+          <Link to='/login'> Login</Link>
+        </span>
       </div>
     </div>
   )
