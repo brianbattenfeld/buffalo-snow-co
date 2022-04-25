@@ -15,10 +15,12 @@ function App() {
             <img className="logo img-responsive" src={Logo} alt="Buffalo Snow Co" height="350" />
           </div>
           <div className="col-md-6 text-left">
-            <h1 className="text-primary">Buffalo Snow Co</h1>
-            <div className="my-4">
-              <h2>Mobilizing the City of Good Neighbors. Plowed public sidewalks are a basic human right.</h2>
-              <p>Linking citizens with citizens to address the dangers presented by snow events around the city.</p>
+            <div className="px-3">
+              <h1 className="text-primary ">Buffalo Snow Co</h1>
+              <div className="my-4">
+                <h2>Mobilizing the City of Good Neighbors. Plowed public sidewalks are a basic human right.</h2>
+                <p>Linking citizens with citizens to address the dangers presented by snow events around the city.</p>
+              </div>
             </div>
           </div>
         </div>

@@ -10,34 +10,34 @@ import './forms.css'
 function Register() {
   return (
     <>
-      <section className='page-section center flex-column bg-primary '>
+      <section className='page-section section-sm center flex-column bg-primary '>
         <div className="container">
           <Stats />
         </div>
-        <div className="container">
-          <RegistrationForm />
-        </div>
       </section>
       <section py-5 className="container page-section py-5 ">
-        <h1 className="">Organizational Information</h1>
-        {/* <div className="row py-5"> */}
-        {/* <div className="col-md-4 mb-4">
-            <div className="text-left">
-
-              
-            </div>
-          </div> */}
-
-        {/* <div className="col-md-8">
-            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT5LPtdtYNO2PzhEwJbLFWS56aHZjcf4GzTMlp2EpXw3NtZppcCgilCOvAWQ-I1Kg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>=
-          </div> */}
-        {/* </div> */}
-        <p><strong>Primary Contact</strong><br />
+        <h1 className="">Press Release</h1>
+        <p><strong>Contact</strong><br />
           Kevin Christner<br />
           kjc@richmond-cap.com<br />
           716. 640.2779</p>
-        <a href="https://docs.google.com/document/d/1YRyQPfG1Zds6sKD1uZx0MstdFH2Nt9qZ/edit?usp=sharing&ouid=105032006586378691834&rtpof=true&sd=true" target="_blank">Press Release</a>
 
+        <p>Buffalo Snowplow Collective<br />
+          Mobilizing the City of Good Neighbors<br />
+          Plowed Sidewalks as a Human Right<br />
+          FOR IMMEDIATE RELEASE: 4.24.22</p>
+
+        <p>Last winter became an inflection point anyone living within the city limits of Buffalo has already dealt with for years: unplowed sidewalks make getting around difficult, at best. At worst, they are dangerous and disproportionately affect underserved and elderly residents. The city has struggled to address this issue and from that came a kernel of an idea: rally the community around this pain point. The Buffalo Snowplow Collective wants to democratize sidewalk snow removal to ensure Buffalo’s 1,400 miles of sidewalks are free of snow.  The company will develop an app that identifies the most common sidewalk routes Buffalo residents use, uses weather reports to determine how many snow removal engineers will be needed the following day, who will be financially compensated for clearing the snow.  By creating a distributed app to assign snow removal routes, the company will put control into the hands of snow removal engineers, our neighbors.</p>
+        <p>Using crowdsourcing, the company will accomplish its goal in the absolute most cost effective way. Buffalo Snowplow Collective will also issue cryptocurrency coins to early adopters, benefactors, and snow removal engineers after they complete jobs. The coins provide a voice in governance, similar to a co-op model.  If the company becomes successful, it may make future distributions, allowing all snow removal engineers to share in the company’s prosperity.  Most importantly, with navigable sidewalks, injuries will decrease, lowering insurance costs, and significantly reducing the number of annoying TV commercials and billboards directing you to repeatedly press the same number on your phone in a mindless manner!  What used to be a source of dread during our inevitable Buffalo snowfalls, can now be a revenue channel for the average resident.  The Buffalo Snowplow Collective will ensure all of Buffalo's citizens have the basic human right of cleared sidewalks!
+        </p>
+        {/* <div className="row py-5"> */}
+
+      </section>
+
+      <section className='page-section section-sm center flex-column bg-primary '>
+        <div className="container">
+          <RegistrationForm />
+        </div>
       </section>
     </>
 

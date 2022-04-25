@@ -47,6 +47,10 @@
 section.page-section {
   min-height: 90vh;
   padding: 3rem 0;
+
+  &.section-sm {
+    min-height: 50vh;
+  }
 }
 
 .text-white {
